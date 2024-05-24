@@ -1,0 +1,45 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+nav a {
+    color: #bb86fc;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+}
+nav a:hover {
+    background-color: #3700b3;
+    border-radius: 5px;
+}
+section {
+    margin-bottom: 50px;
+}
+h2 {
+    border-bottom: 2px solid #bb86fc;
+    padding-bottom: 10px;
+}
+.contact-info a {
+    color: #bb86fc;
+    text-decoration: none;
+}
+.contact-info a:hover {
+    text-decoration: underline;
+}
